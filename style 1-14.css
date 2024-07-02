@@ -1,0 +1,188 @@
+button {
+    height: 25px;
+    background-color: white;
+    border-radius: 7px;
+    border: solid 1px;
+}
+
+button:hover {
+    background-color: rgb(240, 216, 238);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.keyboard {
+    display: grid;
+    border: 1px solid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#elem5 {
+    margin: 20px;
+    width: 200px;
+    border: 2px solid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+li {
+    padding: 10px;
+}
+
+.current-day {
+    background-color: lightblue;
+}
+
+#parent8 {
+    margin-top: 30px;
+    width: 600px;
+}
+
+#elem8, #date9 {
+    width: 350px;
+    height: 35px;
+    border: 2px solid;
+    font-size: 16px;
+}
+
+#table8 {
+    width: 100%;
+}
+
+#table8 td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#parent10 {
+    text-align: center;
+}
+
+#parent10 > * {
+    margin-bottom: 10px;
+}
+
+#timer10 {
+    font-size: 18px;
+}
+
+#text10 {
+    font-size: 17px;
+    font-style: italic;
+}
+
+#parent11 {
+	position: relative;
+}
+
+#elem11 {
+	padding: 5px;
+	font-size: 18px;
+}
+
+#parent11 ul {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: white;
+}
+
+#parent11 li {
+	border: 1px solid gray;
+	font-size: 18px;
+	padding: 5px;
+}
+
+#parent11 li:hover {
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.spoiler:not(.active) {
+	display: none;
+}
+
+#parent13 {
+	width: 400px;
+}
+
+.menu a {
+	margin-right: 5px;
+	display: inline-block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	border: 1px solid gray;
+}
+
+.menu a:hover {
+	background: #f8f8f8;
+}
+
+.menu a.active {
+	border-color: transparent;
+	background: #f2f2f2;
+}
+
+.tabs .tab:not(.active) {
+	display: none;
+}
+
+.tabs .tab {
+	padding: 10px;
+	background: #f2f2f2;
+	height: 300px;
+}
+
+#parent14 {
+	width: 400px;
+}
+
+.tab14 {
+	margin-bottom: 10px;
+}
+
+.tab14 .link14 a {
+	display: block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	background: #f8f8f8;
+	border: 1px solid gray;
+}
+
+.tab14 .link14:hover a {
+	background: #f2f2f2;
+}
+
+.tab14:not(.active) .text14 {
+	display: none;
+}
+
+.tab14 .text14 {
+	border: 1px dashed gray;
+	border-top: none;
+	padding: 10px;
+	height: 300px;
+}
